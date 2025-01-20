@@ -1,18 +1,18 @@
-# Nadia-R.S Rule/Inference Engine
-Open source project Nadia Rule/Policy Engine with React.js and Spring.
-This project is based on original project [Nadia Rule/Inference Engine.](https://github.com/DeanLee77/Nadia) 
-This project is based on original project [Nadia Rule/Inference Engine.](https://github.com/DeanLee77/Nadia).
+# PALOS Rule/Inference Engine
+Open source project PALOS Rule/Policy Engine with React.js and Spring.
+This project is based on original project [PALOS Rule/Inference Engine.](https://github.com/DeanLee77/Nadia) 
+This project is based on original project [PALOS Rule/Inference Engine.](https://github.com/DeanLee77/Nadia).
 <br/>
 <br/>
-Video is also avaiable at [NADIA Policy / Business rules Engine from NExST.R&DLabs](https://youtu.be/xyWjscJ3LxI) <br/>
+Video is also avaiable at [PALOS Policy / Business rules Engine from NExST.R&DLabs](https://youtu.be/xyWjscJ3LxI) <br/>
 or <br/>
-another link is [ Introduction of NADIA Policy / Business rules Engine from NExST.R&DLabs.](https://youtu.be/O-itMgYHRvc)
-### **** Note: If you have cloned NADIA then you may need to run 'npm install' before you start Node server due to all changes around Babel and Webpack version upgrade ***
+another link is [ Introduction of PALOS Policy / Business rules Engine from NExST.R&DLabs.](https://youtu.be/O-itMgYHRvc)
+### **** Note: If you have cloned PALOS then you may need to run 'npm install' before you start Node server due to all changes around Babel and Webpack version upgrade ***
 
-# ***Relevant NADIA project list***
-[NADIA Java](https://github.com/DeanLee77/Nadia) <br/>
-[NADIA C sharp](https://github.com/DeanLee77/NADIA-C.Sharp)<br/>
-[NADIA C/C++ (In Progress)](https://github.com/DeanLee77/NADIA-CPP)
+# ***Relevant PALOS project list***
+[PALOS Java](https://github.com/DeanLee77/Nadia) <br/>
+[PALOS C sharp](https://github.com/DeanLee77/NADIA-C.Sharp)<br/>
+[PALOS C/C++ (In Progress)](https://github.com/DeanLee77/NADIA-CPP)
 
 
 ## 1. Introduction
@@ -32,10 +32,10 @@ In order to install the project in your workspace, you may need to do followings
  6. Once you have installed Python 2.7 then open up your command line/terminal then type 'npm install -g windows-build-tools', and 'npm config set python /path/to/executable/python2.7';
  7. once above tasks are done open up 'ClientSide' folder in command line/terminal then type 'npm install'. It will install all necessary packages for client side including 'React'.;
  8. when you done up until this point, then you may need to build the project at server side. Please import the project into your worksapce and go to Gradle build folder in Gradle Tasks window and open it up then click build then the project will be built;
- 9. all relevant database tables need to be created before running 'NADIA', and 'DDL' file is at 'com.Nadia-R.S/src/main/resources/database/' folder;
+ 9. all relevant database tables need to be created before running 'PALOS', and 'DDL' file is at 'com.Nadia-R.S/src/main/resources/database/' folder;
  10. you now can run server for the project locally;
  11. you need to start Node server to see the actual GUI. Please open up 'ClientSide' folder in command line/terminal again and type 'npm start';
- 12. you can now be able to play with 'Nadia' in your browser once you typed 'localhost:3000' in URL section of your browser.
+ 12. you can now be able to play with 'PALOS' in your browser once you typed 'localhost:3000' in URL section of your browser.
  
  *Please note that there will be Demo video available soon.
 ## 3. Roadmap
@@ -50,10 +50,10 @@ Add more features as follows;
 If you would like to contribute to this project, then please create your own branch and name the branch clearly. Once the work is done in the branch then do 'pull request' and send an email to 'nexst.rndlabs@gmail.com'.
 
 ## 5. Make your own Rules/Policies
-Please have a look at a file of testing rule. Within the example file, all indented rules uses 'Tab' key for indentation. The rule scanner considers of an indented rule as a child rule of previous rule in a rule text. All relevant steps to make your own rules are described in a number of '.png' files in the project named 'Nadia Rule Generation STEP 1....7', Hence please refer to steps when you create your own rules. 
+Please have a look at a file of testing rule. Within the example file, all indented rules uses 'Tab' key for indentation. The rule scanner considers of an indented rule as a child rule of previous rule in a rule text. All relevant steps to make your own rules are described in a number of '.png' files in the project named 'PALOS Rule Generation STEP 1....7', Hence please refer to steps when you create your own rules. 
 
 ## Note:
-If you need a commercial or coustomised version of Nadia engine, then please contact on 'nexst.rndlabs@gmail.com'.
+If you need a commercial or coustomised version of PALOS engine, then please contact on 'nexst.rndlabs@gmail.com'.
 
 ## 6. How does it work
 There is a number of key components as follows;
@@ -119,5 +119,5 @@ An inference engine using forward chaining searches the inference rules until it
 
 
 ## 7. License
-Copyright (c) 2017-2022 individual contributors.
-Nadia-R.S is open source project and released under AGPL 3.0 License.
+Copyright (c) 2017-2025 individual contributors.
+PALOSS is open source project and released under AGPL 3.0 License.
